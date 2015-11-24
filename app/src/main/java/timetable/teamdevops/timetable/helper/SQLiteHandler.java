@@ -168,11 +168,11 @@ public class SQLiteHandler extends SQLiteOpenHelper {
     }
     public void deleteTimeTableEntry(String database_table,TimeTableData data){
         SQLiteDatabase db = this.getWritableDatabase();
-        String DELETE_QUERY = " DELETE from " + database_table + "WHERE "
-                                           + KEY_CODE + " = " + data.getCode()
-                                 + " and " +KEY_SUBJECT+ "=" + data.getSubject()
-                                 + " and " +KEY_VENUE+ "=" + data.getVenue()
-                                 + " and " +KEY_INSTRUCTOR+ "=" + data.getInstructor();
+        String DELETE_QUERY = " DELETE from " + database_table + " WHERE "
+                                           + KEY_CODE + " = '" + data.getCode()
+                                 + "' and " +KEY_SUBJECT+ " = '" + data.getSubject()
+                                 + "' and " +KEY_VENUE+ " = '" + data.getVenue()
+                                 + "' and " +KEY_INSTRUCTOR+ " = '" + data.getInstructor() + "'";
         db.execSQL(DELETE_QUERY);
 
     }

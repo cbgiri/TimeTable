@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="3"
-        android:background="@android:color/holo_blue_dark"
+        android:background="@android:color/holo_blue_light"
         android:scaleType="centerInside"
         android:src="@drawable/art_clear" />
 
@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:background="@android:color/holo_blue_dark"
+        android:background="@android:color/holo_blue_light"
         android:orientation="vertical"
         android:padding="3dp">
 
@@ -27,7 +27,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="8:00am - 10:00am"
-            android:fontFamily="sans-serif-thin"
             android:textColor="@android:color/white"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -35,7 +34,6 @@
             android:id="@+id/tvSubject"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-thin"
             android:text="Image Processing"
             android:textColor="@android:color/white"
             android:textAppearance="?android:attr/textAppearanceSmall"
@@ -51,8 +49,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:fontFamily="sans-serif-thin"
                 android:text="CS1746"
+                android:textColor="@android:color/black"
                 android:textSize="20sp" />
 
             <TextView
@@ -60,8 +58,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:fontFamily="sans-serif-thin"
                 android:text="LH2"
+                android:textColor="@android:color/black"
                 android:textSize="20sp" />
 
         </LinearLayout>
@@ -71,8 +69,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:fontFamily="sans-serif-thin"
             android:text="Prof Rajitha B."
+            android:textColor="@android:color/black"
             android:textSize="20sp" />
 
 
