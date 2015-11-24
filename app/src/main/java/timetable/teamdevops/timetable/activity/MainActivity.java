@@ -92,6 +92,24 @@ public class MainActivity extends AppCompatActivity implements DescriptionDialog
         Fragment page = getSupportFragmentManager().findFragmentByTag("android:switcher:" + R.id.pager + ":" + viewPager.getCurrentItem());
         if (viewPager.getCurrentItem() == 0 && page != null) {
             ((FragmentMon)page).populateRecyclerView();
+        } else
+        if (viewPager.getCurrentItem() == 1 && page != null) {
+            ((FragmentTues)page).populateRecyclerView();
+        } else
+        if (viewPager.getCurrentItem() == 2 && page != null) {
+            ((FragmentWed)page).populateRecyclerView();
+        } else
+        if (viewPager.getCurrentItem() == 3 && page != null) {
+            ((FragmentThurs)page).populateRecyclerView();
+        } else
+        if (viewPager.getCurrentItem() == 4 && page != null) {
+            ((FragmentFri)page).populateRecyclerView();
+        } else
+        if (viewPager.getCurrentItem() == 5 && page != null) {
+            ((FragmentSat)page).populateRecyclerView();
+        } else
+        if (viewPager.getCurrentItem() == 6 && page != null) {
+            ((FragmentSun)page).populateRecyclerView();
         }
     }
 
@@ -107,6 +125,24 @@ public class MainActivity extends AppCompatActivity implements DescriptionDialog
         Fragment page = getSupportFragmentManager().findFragmentByTag("android:switcher:" + R.id.pager + ":" + viewPager.getCurrentItem());
         if (viewPager.getCurrentItem() == 0 && page != null) {
             ((FragmentMon)page).populateRecyclerView();
+        } else
+        if (viewPager.getCurrentItem() == 1 && page != null) {
+            ((FragmentTues)page).populateRecyclerView();
+        } else
+        if (viewPager.getCurrentItem() == 2 && page != null) {
+            ((FragmentWed)page).populateRecyclerView();
+        } else
+        if (viewPager.getCurrentItem() == 3 && page != null) {
+            ((FragmentThurs)page).populateRecyclerView();
+        } else
+        if (viewPager.getCurrentItem() == 4 && page != null) {
+            ((FragmentFri)page).populateRecyclerView();
+        } else
+        if (viewPager.getCurrentItem() == 5 && page != null) {
+            ((FragmentSat)page).populateRecyclerView();
+        } else
+        if (viewPager.getCurrentItem() == 6 && page != null) {
+            ((FragmentSun)page).populateRecyclerView();
         }
     }
     class PagerAdapter extends FragmentPagerAdapter {
