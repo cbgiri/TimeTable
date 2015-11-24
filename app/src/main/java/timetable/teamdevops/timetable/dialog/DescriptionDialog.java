@@ -1,5 +1,9 @@
 package timetable.teamdevops.timetable.dialog;
 
+/**
+ * author- Chandra Bhan Giri
+ */
+
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.DialogInterface;
@@ -15,7 +19,7 @@ import timetable.teamdevops.timetable.R;
 import timetable.teamdevops.timetable.entities.TimeTableData;
 
 /**
- * Created by king on 16-11-2015.
+ * Created by- Chandra Bhan Giri
  */
 public class DescriptionDialog extends DialogFragment {
 

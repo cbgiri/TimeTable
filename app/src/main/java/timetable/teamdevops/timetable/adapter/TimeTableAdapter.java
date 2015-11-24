@@ -1,5 +1,9 @@
 package timetable.teamdevops.timetable.adapter;
 
+/**
+ * Created by- Chandra Bhan Giri
+ */
+
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
@@ -24,9 +28,7 @@ import timetable.teamdevops.timetable.entities.TimeTableData;
 import timetable.teamdevops.timetable.fragment.FragmentMon;
 import timetable.teamdevops.timetable.helper.SQLiteHandler;
 
-/**
- * Created by Deepankar on 24-11-2015.
- */
+
 public class TimeTableAdapter extends RecyclerView.Adapter<TimeTableAdapter.ViewHolder> {
 
     static DialogCommunicator1 mDialogCommunicator1;

@@ -5,7 +5,7 @@ import java.util.Comparator;
 import timetable.teamdevops.timetable.entities.TimeTableData;
 
 /**
- * Created by Deepankar on 24-11-2015.
+ * Created by- Chandra Bhan Giri
  */
 public class MyComparator implements Comparator<TimeTableData> {
 

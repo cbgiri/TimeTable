@@ -1,5 +1,9 @@
 package timetable.teamdevops.timetable.activity;
 
+/**
+ * Created by- Chandra Bhan Giri
+ */
+
 import android.app.TimePickerDialog;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -25,6 +29,8 @@ import timetable.teamdevops.timetable.fragment.FragmentThurs;
 import timetable.teamdevops.timetable.fragment.FragmentTues;
 import timetable.teamdevops.timetable.fragment.FragmentWed;
 import timetable.teamdevops.timetable.helper.SQLiteHandler;
+
+
 
 public class MainActivity extends AppCompatActivity implements DescriptionDialog.DialogCommunicator, TimeTableAdapter.DialogCommunicator1{
 

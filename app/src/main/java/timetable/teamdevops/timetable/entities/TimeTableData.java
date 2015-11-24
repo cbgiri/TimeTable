@@ -1,7 +1,7 @@
 package timetable.teamdevops.timetable.entities;
 
 /**
- * Created by Deepankar on 23-11-2015.
+ * Created by- Chandra Bhan Giri
  */
 public class TimeTableData {
 

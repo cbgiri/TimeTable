@@ -20,7 +20,7 @@ import timetable.teamdevops.timetable.helper.MyComparator;
 import timetable.teamdevops.timetable.helper.SQLiteHandler;
 
 /**
- * Created by king on 16-11-2015.
+ * Created by- Chandra Bhan Giri
  */
 public class FragmentTues extends Fragment {
 

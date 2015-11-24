@@ -14,7 +14,7 @@ import timetable.teamdevops.timetable.activity.MainActivity;
 import timetable.teamdevops.timetable.entities.TimeTableData;
 
 /**
- * Created by Deepankar on 23-11-2015.
+ * Created by- Chandra Bhan Giri
  */
 public class SQLiteHandler extends SQLiteOpenHelper {
 
