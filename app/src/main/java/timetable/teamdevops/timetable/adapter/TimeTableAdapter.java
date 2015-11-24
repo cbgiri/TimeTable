@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
@@ -64,7 +65,7 @@ public class TimeTableAdapter extends RecyclerView.Adapter<TimeTableAdapter.View
                     final AlertDialog.Builder builder = new AlertDialog.Builder(v.getContext());
                     builder.setTitle("Delete")
                             .setMessage("Do you want to Delete this ?")
-                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                            .setPositiveButton("YES", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialog, int which) {
                                     TextView subject1;
@@ -87,7 +88,12 @@ public class TimeTableAdapter extends RecyclerView.Adapter<TimeTableAdapter.View
 
                                     mDialogCommunicator1.onPositiveClick(data);
                                 }
-                            });
+                            }).setNegativeButton("No", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            Toast.makeText(context, "Cancelled", Toast.LENGTH_SHORT).show();
+                        }
+                    });;
 
                     builder.create().show();
                 }
